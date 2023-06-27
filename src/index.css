@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100&family=Ubuntu:wght@300;400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  box-sizing: border-box;
+  font-family: "Cabin", sans-serif;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
